@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Showing Pageof_no-border no-outline p_6051d1</name>
+   <tag></tag>
+   <elementGuidId>584b6ee8-f6f8-4213-836f-df90b8732310</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>input.no-border.no-outline.pd-5.flex-1.search-input.ng-untouched.ng-pristine.ng-valid</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@type='text']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>b7f456ea-efd9-48e7-8708-5ebe49fc6021</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Search by device IMEI</value>
+      <webElementGuid>e7fdbd4d-3bf7-4313-984a-8df01e445eac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>1539f033-547c-4f5a-ae86-0f0d5cfa9d6c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>no-border no-outline pd-5 flex-1 search-input ng-untouched ng-pristine ng-valid</value>
+      <webElementGuid>af345bca-96e9-4923-adf5-39ecd6ee75b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;mat-typography&quot;]/app-root[1]/app-main-components[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;height-100vh flex-right&quot;]/div[@class=&quot;flex-1 relative&quot;]/app-devices-list[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;flex-bottom height-100vh pd-bottom-20 pd-left-10 pd-right-10&quot;]/div[@class=&quot;flex-bottom flex-1 overflow-y-scroll&quot;]/div[@class=&quot;pd-20 pd-top-10 pd-bottom-10 flex-1 flex-bottom&quot;]/app-custom-grid[@class=&quot;flex-1&quot;]/div[@class=&quot;flex-left pd-bottom-20&quot;]/div[@class=&quot;v-center bd-black-20 pd-10 pd-top-3 pd-bottom-3 br-5 mg-right-20 relative&quot;]/input[@class=&quot;no-border no-outline pd-5 flex-1 search-input ng-untouched ng-pristine ng-valid&quot;]</value>
+      <webElementGuid>6149c8ec-f928-462e-9abe-9e3e8087b319</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@type='text']</value>
+      <webElementGuid>785ab1f7-bcc5-4865-99f3-b1deeee447b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//input</value>
+      <webElementGuid>a820a8c3-2357-4d23-93df-ab040322d64c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = 'Search by device IMEI' and @type = 'text']</value>
+      <webElementGuid>010b1dcd-9cf7-403a-b495-d50125766eff</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

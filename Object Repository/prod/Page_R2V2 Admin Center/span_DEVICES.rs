@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_DEVICES</name>
+   <tag></tag>
+   <elementGuidId>c0e985ed-ebc9-49fb-b7d0-49c419689f99</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='DEVICES MONITORING'])[1]/following::span[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>6918dfac-c328-4e5f-a239-15c34b00c4cc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>main-tab-name fw-700</value>
+      <webElementGuid>e50b70e4-9338-4616-b83b-bf0573581c6e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>DEVICES</value>
+      <webElementGuid>b8588d5e-a082-4536-a238-e66b87bb6f72</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;mat-typography&quot;]/app-root[1]/app-main-components[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;height-100vh flex-right&quot;]/div[@class=&quot;side-nav-container&quot;]/app-sidenav-list[1]/div[@class=&quot;sidenav-container flex-bottom height-100vh bg-whitesmoke pd-top-27 pd-bottom-20 bd-right-black-10&quot;]/div[@class=&quot;flex-1 tabs-container mg-bottom-20&quot;]/div[@class=&quot;flex-bottom ng-star-inserted&quot;]/div[@class=&quot;v-center pointer main-tab pd-20&quot;]/span[@class=&quot;main-tab-name fw-700&quot;]</value>
+      <webElementGuid>fb0e00d0-6966-4e12-b791-6c68b90a10a0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='DEVICES MONITORING'])[1]/following::span[1]</value>
+      <webElementGuid>e7cc7460-ec72-4047-a74f-db9d19d200d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ADVERTISEMENTS'])[1]/following::span[2]</value>
+      <webElementGuid>000cae08-716a-4a91-93ec-909e5cb99151</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='VITALS CONFIGURATION'])[1]/preceding::span[1]</value>
+      <webElementGuid>59bda585-8e57-47f6-a165-656f1f64ae5b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='USER MANAGEMENT'])[1]/preceding::span[2]</value>
+      <webElementGuid>75d8f95b-6a3b-4bef-a028-a777ecf18e49</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='DEVICES']/parent::*</value>
+      <webElementGuid>23c164dc-ffbe-4e6b-ae6e-65a3f2be8f3a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/div/span</value>
+      <webElementGuid>ca74f90a-6b08-498b-af47-7d411b792e6e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'DEVICES' or . = 'DEVICES')]</value>
+      <webElementGuid>131acc9f-7eb6-4fbf-ac56-7f1699b2d455</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
