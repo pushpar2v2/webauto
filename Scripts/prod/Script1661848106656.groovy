@@ -17,3 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://admin.r2v2.in/#/?returnUrl=%2Fhome%2Fdevices')
+
+WebUI.setText(findTestObject('Object Repository/prod/Page_R2V2 Admin Center/input_Login_mat-input-0'), 'gaadmin')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/prod/Page_R2V2 Admin Center/input_User Id_mat-input-1'), 'wBWaYbuXUvE=')
+
+WebUI.click(findTestObject('Object Repository/prod/Page_R2V2 Admin Center/button_Login'))
+
+WebUI.click(findTestObject('Object Repository/prod/Page_R2V2 Admin Center/span_DEVICES'))
+
+WebUI.setText(findTestObject('Object Repository/prod/Page_R2V2 Admin Center/input_Showing Pageof_no-border no-outline p_6051d1'), 
+    '863234058268302')
+
+WebUI.sendKeys(findTestObject('Object Repository/prod/Page_R2V2 Admin Center/input_Showing Pageof_no-border no-outline p_6051d1'), 
+    Keys.chord(Keys.ENTER))
+
+WebUI.closeBrowser()
+
