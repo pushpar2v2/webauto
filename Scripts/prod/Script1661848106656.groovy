@@ -19,21 +19,41 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://admin.r2v2.in/#/?returnUrl=%2Fhome%2Fdevices')
+WebUI.navigateToUrl('https://admin.r2v2.in/#/home/devices')
 
-WebUI.setText(findTestObject('Object Repository/prod/Page_R2V2 Admin Center/input_Login_mat-input-0'), 'gaadmin')
+WebUI.setText(findTestObject('Object Repository/prod/Page_R2V2 Admin Center/Page_R2V2 Admin Center/input_Login_mat-input-0'), 
+    'gaadmin')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/prod/Page_R2V2 Admin Center/input_User Id_mat-input-1'), 'wBWaYbuXUvE=')
+WebUI.setEncryptedText(findTestObject('Object Repository/prod/Page_R2V2 Admin Center/Page_R2V2 Admin Center/input_User Id_mat-input-1'), 
+    'wBWaYbuXUvE=')
 
-WebUI.click(findTestObject('Object Repository/prod/Page_R2V2 Admin Center/button_Login'))
+WebUI.click(findTestObject('Object Repository/prod/Page_R2V2 Admin Center/Page_R2V2 Admin Center/button_Login'))
 
-WebUI.click(findTestObject('Object Repository/prod/Page_R2V2 Admin Center/span_DEVICES'))
+WebUI.click(findTestObject('Object Repository/prod/Page_R2V2 Admin Center/Page_R2V2 Admin Center/span_DEVICES'))
 
-WebUI.setText(findTestObject('Object Repository/prod/Page_R2V2 Admin Center/input_Showing Pageof_no-border no-outline p_6051d1'), 
+WebUI.setText(findTestObject('Object Repository/prod/Page_R2V2 Admin Center/Page_R2V2 Admin Center/input_Showing Pageof_no-border no-outline p_6051d1'), 
     '863234058268302')
 
-WebUI.sendKeys(findTestObject('Object Repository/prod/Page_R2V2 Admin Center/input_Showing Pageof_no-border no-outline p_6051d1'), 
+WebUI.sendKeys(findTestObject('Object Repository/prod/Page_R2V2 Admin Center/Page_R2V2 Admin Center/input_Showing Pageof_no-border no-outline p_6051d1'), 
     Keys.chord(Keys.ENTER))
+
+WebUI.click(findTestObject('Object Repository/prod/Page_R2V2 Admin Center/Page_R2V2 Admin Center/span_R2V2CHS000001021'))
+
+WebUI.click(findTestObject('Object Repository/prod/Page_R2V2 Admin Center/Page_R2V2 Admin Center/span_Status Calls'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/prod/Page_R2V2 Admin Center/Page_R2V2 Admin Center/div_Advertisements_ag-header-cell-resize'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/prod/Page_R2V2 Admin Center/Page_R2V2 Admin Center/div_Advertisements_ag-header-cell-resize'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/prod/Page_R2V2 Admin Center/Page_R2V2 Admin Center/div_Advertisements_ag-header-cell-resize'))
+
+WebUI.delay(2)
 
 WebUI.closeBrowser()
 
